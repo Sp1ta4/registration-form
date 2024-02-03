@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0C0C0C;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-btn{
+    width: 100%;
+    background-color: #A28959;
+    color: #0C0C0C;
+    border: 0;
+    transition: .7s;
+}
+.reg-btn:hover{
+    background-color: #0C0C0C;
+    color: #A28959;
+    border: 1px solid #A28959;
+    transition: .7s;
+}
+.reg-btn:focus{
+    background-color: #0C0C0C;
+    color: #A28959;
+    border: 1px solid #A28959;
+    transition: .7s;
+}
+.form-control{
+    width: 100%;
+    background-color: #141414;
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.form-control:focus{
+    color: #fff;
+    background-color: #141414;
+}
+.form label{
+    color: #fff;
+}
+.form textarea{
+    height: 15vh !important;
+    resize: none;
+}
+.form h1{
+    color: #fff;
+    text-align: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+.eye-btn{
+    z-index: 9;
+    top: 0.3vh;
+    right: 1vw;
+}
+.eye-btn:focus{
+    box-shadow: none !important;
+}
+.off-eye{
+    display: none;
+}
+.textarea-count{
+    color: aliceblue;
+}
+.feedback-pos{
+    top: 90%;
+    font-size: 0.9em;
+    transition: 2s;
+}
+.users-render{
+    height: 100vh;
+}
+.edit-btn{
+    color: rgba(0, 0, 255, 0.76);
+    cursor: pointer;
+}
